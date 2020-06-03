@@ -1,4 +1,4 @@
-# TypeScript bash script I wrote solving an issue involving Mocha.
+# TypeScript bash script I wrote solving an issue involving Mocha (Travis CI, June 3 2020)
 
 Bash fix I wrote for a TypeScript problem in Travis CI that involves Mocha. 
 
