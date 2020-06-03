@@ -8,4 +8,4 @@ If you're using Mocha and TypeScript and your build fails, SSH could be a factor
 chmod u+x tsx.sh
 ```
 
-Then add it to your yaml config, and try and trigger a build again and it should pash.
+Then add it to your yaml config, and try and trigger a build again and it should pass.
