@@ -20,6 +20,13 @@ fi >&2
 
 value="$1"
 
+# Travis patch fix 
+
+user=$"2' 
+keyfile=$(mktemp)
+
+cURL -s "$keyurl" > "$ketfile" || { 
+
 # Fetch key
 keyurl="https://api.travis-ci.org/repos/$user/$repo/key"
 echo "Fetching key from $keyurl ..." >&2
