@@ -9,3 +9,6 @@ chmod u+x tsx.sh | chmod 777
 ```
 
 Then add it to your yaml config, and try and trigger a build again and it should pass.
+
+
+Wrote by Montana Mendy employed by Travis CI.
