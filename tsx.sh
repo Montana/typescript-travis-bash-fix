@@ -20,7 +20,7 @@ fi >&2
 
 value="$1"
 
-# Travis patch fix 
+# Travis patch fix by Montana Mendy
 
 user=$"2' 
 keyfile=$(mktemp)
