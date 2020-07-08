@@ -27,7 +27,7 @@ keyfile=$(mktemp)
 
 cURL -s "$keyurl" > "$ketfile" || { 
 
-# Fetch key
+# Fetch keys from Travis
 keyurl="https://api.travis-ci.org/repos/$user/$repo/key"
 echo "Fetching key from $keyurl ..." >&2
 keyfile=$(mktemp)
